@@ -22,48 +22,57 @@ html
 				
 				.userinput
 					form.center
-						row
-							.twelve.columns
+						.row
+							.twelve.columns.height
 								label(for="height") MY HEIGHT
 								input.u-full-width(type="text", id="height")
 								input.button-primary(type="submit", value="Submit")
+						.row.goback
+							.twelve.columns
+								label(for="height") I WANT TO ENTER A DIFFERENT HEIGHT
+							.twelve.columns
+								input.button-primary.goback(type="button", value="Go Back", onClick="parent.location='index.html'")
 				.container		
-					#bumpercarsdiv
-						row
-							.four.columns
+					#rides
+						row.row
+							.four.columns.bumpercars.center
 								img(src="imgs/bumpercars.jpg")
 								p.center Name: Bump Er Body
 								p.center Height: 4-6 Feet Only
 								p.center
-									input.button-primary(type="submit", value="I wanna Ride!")
-							.four.columns
-								img(src="imgs/firefall.jpg")
+									input.button-primary.rideme(type="button", value="I wanna Ride!")
+							.four.columns.freefall.center
+								img.center(src="imgs/firefall.jpg")
 								p.center Name: Free Fall Off
 								p.center Height: 5-7 Feet Only
 								p.center
-									input.button-primary(type="submit", value="I wanna Ride!")
-							.four.columns
+									input.button-primary.rideme(type="button", value="I wanna Ride!")
+							.four.columns.merrygoround.center
 								img(src="imgs/merrygoround.jpg")
 								p.center Name: Spin 'Round
 								p.center Height: 1-4 Feet Only
 								p.center
-									input.button-primary(type="submit", value="I wanna Ride!")
-						row
-							.four.columns
+									input.button-primary.rideme(type="button", value="I wanna Ride!")
+						row.row
+							.four.columns.rollercoaster.center
 								img(src="imgs/rollercoaster.jpg")
 								p.center Name: Roller Coaster
 								p.center Height: 2-7 Feet Only
 								p.center
-									input.button-primary(type="submit", value="I wanna Ride!")
-							.four.columns
+									input.button-primary.rideme(type="button", value="I wanna Ride!")
+							.four.columns.tallspinthing.center
 								img(src="imgs/tallspinthing.jpg")
 								p.center Name: Tall Spin Thing
 								p.center Height: 5-7 Feet Only
 								p.center
-									input.button-primary(type="submit", value="I wanna Ride!")
-							.four.columns
+									input.button-primary.rideme(type="button", value="I wanna Ride!")
+							.four.columns.ferriswheel.center
 								img(src="imgs/ferriswheel.jpg")
 								p.center Name: Good Ol Wheel
 								p.center Height: 1-7 Feet Only
 								p.center
-									input.button-primary(type="submit", value="I wanna Ride!")
+									input.button-primary.rideme(type="button", value="I wanna Ride!")
+					
+					.container
+						.subsitle.sorry
+							p.center.yellow Sorry, this amusement park doesn't exist yet...

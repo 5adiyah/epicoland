@@ -21,62 +21,75 @@
         <div class="userinput">
           <form class="center">
             <div class="row">
-              <div class="twelve columns">
+              <div class="twelve columns height">
                 <label for="height">MY HEIGHT</label>
                 <input type="text" id="height" class="u-full-width">
                 <input type="submit" value="Submit" class="button-primary">
               </div>
             </div>
+            <div class="row goback">
+              <div class="twelve columns">
+                <label for="height">I WANT TO ENTER A DIFFERENT HEIGHT</label>
+              </div>
+              <div class="twelve columns">
+                <input type="button" value="Go Back" onClick="parent.location='index.html'" class="button-primary goback">
+              </div>
+            </div>
           </form>
         </div>
         <div class="container">		
-          <div id="bumpercarsdiv">
-            <row>
-              <div class="four columns"><img src="imgs/bumpercars.jpg">
+          <div id="rides">
+            <row class="row">
+              <div class="four columns bumpercars center"><img src="imgs/bumpercars.jpg">
                 <p class="center">Name: Bump Er Body</p>
                 <p class="center">Height: 4-6 Feet Only</p>
                 <p class="center">
-                  <input type="submit" value="I wanna Ride!" class="button-primary">
+                  <input type="button" value="I wanna Ride!" class="button-primary rideme">
                 </p>
               </div>
-              <div class="four columns"><img src="imgs/firefall.jpg">
+              <div class="four columns freefall center"><img src="imgs/firefall.jpg" class="center">
                 <p class="center">Name: Free Fall Off</p>
                 <p class="center">Height: 5-7 Feet Only</p>
                 <p class="center">
-                  <input type="submit" value="I wanna Ride!" class="button-primary">
+                  <input type="button" value="I wanna Ride!" class="button-primary rideme">
                 </p>
               </div>
-              <div class="four columns"><img src="imgs/merrygoround.jpg">
+              <div class="four columns merrygoround center"><img src="imgs/merrygoround.jpg">
                 <p class="center">Name: Spin 'Round</p>
                 <p class="center">Height: 1-4 Feet Only</p>
                 <p class="center">
-                  <input type="submit" value="I wanna Ride!" class="button-primary">
+                  <input type="button" value="I wanna Ride!" class="button-primary rideme">
                 </p>
               </div>
             </row>
-            <row>
-              <div class="four columns"><img src="imgs/rollercoaster.jpg">
+            <row class="row">
+              <div class="four columns rollercoaster center"><img src="imgs/rollercoaster.jpg">
                 <p class="center">Name: Roller Coaster</p>
                 <p class="center">Height: 2-7 Feet Only</p>
                 <p class="center">
-                  <input type="submit" value="I wanna Ride!" class="button-primary">
+                  <input type="button" value="I wanna Ride!" class="button-primary rideme">
                 </p>
               </div>
-              <div class="four columns"><img src="imgs/tallspinthing.jpg">
+              <div class="four columns tallspinthing center"><img src="imgs/tallspinthing.jpg">
                 <p class="center">Name: Tall Spin Thing</p>
                 <p class="center">Height: 5-7 Feet Only</p>
                 <p class="center">
-                  <input type="submit" value="I wanna Ride!" class="button-primary">
+                  <input type="button" value="I wanna Ride!" class="button-primary rideme">
                 </p>
               </div>
-              <div class="four columns"><img src="imgs/ferriswheel.jpg">
+              <div class="four columns ferriswheel center"><img src="imgs/ferriswheel.jpg">
                 <p class="center">Name: Good Ol Wheel</p>
                 <p class="center">Height: 1-7 Feet Only</p>
                 <p class="center">
-                  <input type="submit" value="I wanna Ride!" class="button-primary">
+                  <input type="button" value="I wanna Ride!" class="button-primary rideme">
                 </p>
               </div>
             </row>
+          </div>
+          <div class="container">
+            <div class="subsitle sorry">
+              <p class="center yellow">Sorry, this amusement park doesn't exist yet...</p>
+            </div>
           </div>
         </div>
       </div>

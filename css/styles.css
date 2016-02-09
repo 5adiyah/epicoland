@@ -112,3 +112,22 @@ input{
     background-color: #FFC614;
     border-color: #FFC614;
 }
+
+.bumpercars, .freefall, .merrygoround, .rollercoaster, .tallspinthing, .ferriswheel, .goback, .sorry {
+  display: none;
+}
+
+#goback {
+  background-color: #FFC614;
+  border-color: #FFC614;
+  color: #fff;
+}
+
+#goback:hover{
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+}
+
+row .row {
+  display: inline;
+}
